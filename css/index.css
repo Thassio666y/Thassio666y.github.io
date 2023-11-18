@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a68069;
+    padding: 10px 20px;
+    border-bottom: 10px solid #000;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-family: fira code;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: "";
+    background-color: #46220f;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #46220f;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 5px 5px 0px #000;
+    margin: 0px;
+    transition: 150ms cubic-bezier(0, 0, 0.73, 2.49);
+}
+
+#button:hover {
+    background-color: #1e0f06;
+    transform: scale(1.07);
+}
